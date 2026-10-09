@@ -1,9 +1,8 @@
 # Getting Started
 
-1. Copy this project
-2. Rename the module from `sample-plugin` to your plugin name
-3. Update package names, class names, and plugin keys
-4. Add your own plugin logic and actions
+1. Clone this repository
+2. See the [Example Application](example-application.md) guide to run the backend, frontend, and Docker services locally
+3. See the [Wordpress Mail Plugin](plugin.md) documentation for the plugin's configuration and actions
 
-For more information on how to build a plugin, see
+For more information on how plugins work in Valtimo, see
 the [Custom Plugin Definition](https://docs.valtimo.nl/features/plugins/plugins/custom-plugin-definition) documentation.
