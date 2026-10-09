@@ -98,7 +98,10 @@ import {TranslateLoader, TranslateModule} from "@ngx-translate/core";
 import {environment} from "../environments/environment";
 import {registerDocumentenApiFormioUploadComponent, ZgwModule} from "@valtimo/zgw";
 
-import {SamplePluginModule, samplePluginSpecification,} from "@valtimo-plugins/sample-plugin";
+import {
+  WordpressMailPluginModule,
+  wordpressMailPluginSpecification,
+} from "@valtimo-plugins/wordpress-mail-plugin";
 
 export function tabsFactory() {
   return new Map<string, object>([
@@ -158,12 +161,12 @@ export function tabsFactory() {
     ProcessModule,
     ReactiveFormsModule,
     ResourceModule,
-    SamplePluginModule,
     SecurityModule,
     SseModule,
     SwaggerModule,
     TaskModule,
     TeamsModule,
+    WordpressMailPluginModule,
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,
@@ -190,7 +193,7 @@ export function tabsFactory() {
         objecttypenApiPluginSpecification,
         openNotificatiesPluginSpecification,
         openZaakPluginSpecification,
-        samplePluginSpecification,
+        wordpressMailPluginSpecification,
         zakenApiPluginSpecification,
       ],
     },

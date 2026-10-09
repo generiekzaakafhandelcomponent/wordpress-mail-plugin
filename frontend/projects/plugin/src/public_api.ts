@@ -15,11 +15,12 @@
  */
 
 /*
- * Public API Surface of sample-plugin
+ * Public API Surface of wordpressmail plugin
  */
 
-export * from "./lib/plugins/sample-plugin/models";
-export * from "./lib/plugins/sample-plugin/sample-plugin-module";
-export * from "./lib/plugins/sample-plugin/sample-plugin.specification";
-export * from "./lib/plugins/sample-plugin/components/sample-plugin-configuration/sample-plugin-configuration.component";
-export * from "./lib/plugins/sample-plugin/components/sample-action-configuration/sample-action-configuration.component";
+export * from "./lib/plugins/wordpressmail/models";
+export * from "./lib/plugins/wordpressmail/wordpress-mail-plugin.module";
+export * from "./lib/plugins/wordpressmail/wordpress-mail.plugin.specification";
+export * from "./lib/plugins/wordpressmail/components/wordpress-mail-plugin-configuration/wordpress-mail-plugin-configuration.component";
+export * from "./lib/plugins/wordpressmail/components/send-mail/send-mail.component";
+export * from "./lib/plugins/wordpressmail/components/send-mail-with-attachement/send-mail-with-attachment.component";
