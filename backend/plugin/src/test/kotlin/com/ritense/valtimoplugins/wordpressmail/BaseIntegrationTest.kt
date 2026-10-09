@@ -16,6 +16,7 @@
 
 package com.ritense.valtimoplugins.wordpressmail
 
+import com.ritense.catalogiapi.service.ZaaktypeUrlProvider
 import com.ritense.testutilscommon.junit.extension.LiquibaseRunnerExtension
 import com.ritense.valtimo.contract.authentication.UserManagementService
 import com.ritense.valtimo.contract.mail.MailSender
@@ -34,4 +35,7 @@ abstract class BaseIntegrationTest : BaseTest() {
 
     @MockitoBean
     lateinit var mailSender: MailSender
+
+    @MockitoBean
+    lateinit var zaaktypeUrlProvider: ZaaktypeUrlProvider
 }

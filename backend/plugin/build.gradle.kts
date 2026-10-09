@@ -48,6 +48,7 @@ dependencies {
     testImplementation("com.ritense.valtimo:local-resource")
     testImplementation("com.ritense.valtimo:test-utils-common")
     testImplementation("com.ritense.valtimo:documenten-api")
+    testImplementation("com.ritense.valtimo:catalogi-api")
     testImplementation("com.ritense.valtimo:value-resolver")
     testImplementation("com.ritense.valtimo:mail")
 
