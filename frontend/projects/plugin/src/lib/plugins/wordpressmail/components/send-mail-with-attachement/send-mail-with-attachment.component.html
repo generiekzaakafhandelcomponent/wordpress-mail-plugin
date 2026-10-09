@@ -56,15 +56,15 @@
             [disabled]="obs.disabled"
             [required]="true"
     ></v-input>
-    <valtimo-carbon-multi-input
-            [defaultValues]="obs.prefill?.documentUrls"
-            [disabled]="obs.disabled"
-            [margin]="true"
-            [required]="true"
-            [title]="'documentUrls' | pluginTranslate: pluginId | async"
+    <v-input
             name="documentUrls"
-            type="text"
-    ></valtimo-carbon-multi-input>
+            [title]="'documentUrls' | pluginTranslate: pluginId | async"
+            [margin]="true"
+            [fullWidth]="true"
+            [defaultValue]="obs.prefill?.documentUrls"
+            [disabled]="obs.disabled"
+            [required]="true"
+    ></v-input>
     <valtimo-carbon-multi-input
             [defaultValues]="obs.prefill?.templateData"
             [disabled]="obs.disabled"

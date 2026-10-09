@@ -43,7 +43,7 @@ const wordpressMailPluginSpecification: PluginSpecification = {
             mailSendTaskSubject: 'E-mail onderwerp',
             mailSendTaskTo: 'E-mailadres ontvanger',
             documentUrls: 'Document url lijst',
-            url: 'URL',
+            baseUrl: 'Basis-URL',
             'send-mail': 'Versturen e-mail',
             'send-mail-with-attachment': 'Versturen e-mail met bijlage'
         },
@@ -61,7 +61,7 @@ const wordpressMailPluginSpecification: PluginSpecification = {
             documentUrls: 'Document url list',
             templateDataTooltip:
                 'The right value-column also supports the use of process variables such as pv: and doc:',
-            url: 'URL',
+            baseUrl: 'Base URL',
             'send-mail': 'Send e-mail',
             'send-mail-with-attachment': 'Send e-mail with attachment'
         }
