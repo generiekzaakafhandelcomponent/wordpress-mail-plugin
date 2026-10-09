@@ -1,6 +1,6 @@
 spring:
   application:
-    name: gzac-plugin-template
+    name: wordpress-mail-plugin
   profiles:
     active: dev
   jackson:

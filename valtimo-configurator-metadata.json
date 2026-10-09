@@ -1,17 +1,17 @@
 {
-    "name": "sample-plugin",
+    "name": "wordpress-mail-plugin",
     "version": 1,
     "backend": [
         {
-            "import": "com.ritense.valtimoplugins:sample-plugin"
+            "import": "com.ritense.valtimoplugins:wordpress-mail-plugin"
         }
     ],
     "frontend": {
-        "import": "@valtimo-plugins/sample-plugin",
+        "import": "@valtimo-plugins/wordpress-mail-plugin",
         "codeAdditions": [
             {
-                "spec": "samplePluginSpecification",
-                "module": "SamplePluginModule"
+                "spec": "wordpressMailPluginSpecification",
+                "module": "WordpressMailPluginModule"
             }
         ]
     }

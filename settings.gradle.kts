@@ -1,4 +1,4 @@
-rootProject.name = "gzac-plugin-template"
+rootProject.name = "wordpress-mail-plugin"
 include(
     "backend",
     "backend:app",
